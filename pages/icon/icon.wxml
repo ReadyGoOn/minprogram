@@ -1,0 +1,24 @@
+<view>
+  <progress percent="50" border-radius="true"></progress>
+</view>
+
+
+
+
+<view>
+  <block wx:for="{{ iconSize }}" wx:key="index">
+    <icon type="success" size="{{ item }}"></icon>
+  </block>
+</view>
+
+<view>
+  <block wx:for="{{ iconType }}" wx:key="index">
+    <icon type="{{ item }}" size="35"></icon>
+  </block>
+</view>
+
+<view>
+  <block wx:for="{{ iconColor }}">
+    <icon type="success" size="35" color="{{ item }}"></icon>
+  </block>
+</view>

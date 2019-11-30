@@ -1,0 +1,22 @@
+<view class="header">
+  <scroll-view scroll-x="{{ true}}" scroll-width-animation="{{ true }}">
+    <view class="contranier">
+      <view>
+        <view wx:for="{{tags }}" wx:key="index" bindtap="fnclick" data-set="{{index}}">{{item}}</view>
+      </view>
+      <view class="cur"></view>
+      <!-- <view class="cur" style="left:{{left}rpx"></view> -->
+      
+    </view>
+  </scroll-view>
+
+</view>
+
+<view class="video_list">
+<button open-type="share">分享</button>
+  <!-- <text>Thu Nov 14 2019 23:05:47 GMT+0800 (中国标准时间) sitemap 索引情况提示</text> -->
+</view>
+
+<view class="footer">
+
+</view>

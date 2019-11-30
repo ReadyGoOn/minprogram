@@ -1,0 +1,22 @@
+.header .contranier{
+  position: relative;
+  white-space: nowrap;
+
+}
+
+.header .contranier view {
+  width:200rpx;
+  text-align: center;
+  display: inline-block;
+  padding-bottom: 15rpx;
+}
+
+.cur {
+  height:6rpx;
+  width: 64rpx;
+  position: absolute;
+  bottom:0;
+  left:0;
+  background-color:#f0f;
+  
+}
