@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/02-text/02-text",
     "pages/index/index",
     "pages/icon/icon",
     "pages/logs/logs"

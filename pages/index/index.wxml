@@ -14,7 +14,7 @@
 
 <view class="video_list">
 <button open-type="share">分享</button>
-  <!-- <text>Thu Nov 14 2019 23:05:47 GMT+0800 (中国标准时间) sitemap 索引情况提示</text> -->
+  <text>Thu Nov 14 2019 23:05:47 GMT+0800 (中国标准时间) sitemap 索引情况提示</text>
 </view>
 
 <view class="footer">

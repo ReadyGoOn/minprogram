@@ -1,0 +1,21 @@
+<!--pages/02-text/02-text.wxml-->
+<view hover-class="hovers" >houvesdaf</view>
+<view class="fs">外部单独引入css</view>
+<view>
+  <text wx:if="{{num > 5}}">num大于5</text>
+  <text wx:elif="{{num > 3}}">num大于3\n</text>
+  <text wx:else="{{num > 0}}">num大于0\n</text>
+  <text>{{ title1 }}</text>
+  <text hidden>{{ title2 }}</text>
+  <text style="display: none">{{ title3 }}</text>
+  <text wx:if="{{ isShow }}">{{ title4 }}
+    第一个指定wx:if
+  </text>
+  <text wx:if="{{ true }}">{{ title4 }}
+    第一个指定wx:if
+  </text>
+  <text>
+    wx:if 是惰性的，true才渲染，false不渲染\n
+    hidden 始终被渲染，只是简单的控制显示与隐藏
+  </text>
+</view>

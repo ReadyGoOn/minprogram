@@ -1,0 +1,6 @@
+/* pages/02-text/02-text.wxss */
+@import './../../style/base.wxss';
+
+.hovers{
+  color:#f00;
+}
