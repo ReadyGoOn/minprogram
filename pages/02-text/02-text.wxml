@@ -1,6 +1,9 @@
 <!--pages/02-text/02-text.wxml-->
 <view hover-class="hovers" >houvesdaf</view>
 <view class="fs">外部单独引入css</view>
+<view class="globle">这是全局样式</view>
+<view style="background:red">行内样式</view>
+<view class="pagess">页面内样式</view>
 <view>
   <text wx:if="{{num > 5}}">num大于5</text>
   <text wx:elif="{{num > 3}}">num大于3\n</text>

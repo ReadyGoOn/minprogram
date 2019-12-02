@@ -1,0 +1,26 @@
+<!--pages/07-login/07-login.wxml-->
+<view class="login-content">
+  <view class="login-header">
+    <image src="https://fc3tn.baidu.com/it/u=3025909226,1763324618&fm=202&src=bqdata"></image>
+    <text>松岗地铁站</text>
+    <text>深圳市宝安区松岗街道</text>
+  </view>
+
+  <view class="user-pass">
+    <view class="user">
+      <span class="iconfont iconyonghuming"></span>
+      <input
+        placeholder="请输入用户名"
+        placeholder-class="place-color"
+      ></input>
+    </view>
+    <view class="pass">
+      <span class="iconfont iconmima1"></span>
+      <input
+        password
+        placeholder="请输入密码"
+        placeholder-class="place-color"
+      ></input>
+    </view>
+  </view>
+</view>

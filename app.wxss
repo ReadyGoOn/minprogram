@@ -1,4 +1,6 @@
 /**app.wxss**/
+@import './style/iconfont/iconfont.wxss';
+
 .container {
   height: 100%;
   display: flex;
@@ -8,3 +10,11 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+.globle{
+  color:#00f;
+  background-color: #0ff;
+  font-size: 96rpx;
+}
+page{
+  height:100%;
+}
