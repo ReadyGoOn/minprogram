@@ -6,10 +6,11 @@
     <text>深圳市宝安区松岗街道</text>
   </view>
 
-  <view class="user-pass">
+  <form class="user-pass" bindsubmit="bindsubmits" bindreset="bindresets">
     <view class="user">
       <span class="iconfont iconyonghuming"></span>
       <input
+        name="uername"
         placeholder="请输入用户名"
         placeholder-class="place-color"
       ></input>
@@ -18,9 +19,14 @@
       <span class="iconfont iconmima1"></span>
       <input
         password
+        name="password"
         placeholder="请输入密码"
         placeholder-class="place-color"
       ></input>
     </view>
-  </view>
+
+    <button class="btn-login" form-type="submit" type="primary">登陆</button>
+    <button class="btn-reset" form-type="reset">重置</button>
+    <text class="btn-reg">注册</text>
+  </form>
 </view>

@@ -7,7 +7,12 @@ Page({
   data: {
 
   },
-
+  bindsubmits(vt){
+    console.log('submit',vt.detail.value)
+  },
+  bindresets(vt){
+    console.log('reset', vt)
+  },
   /**
    * 生命周期函数--监听页面加载
    */
